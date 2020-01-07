@@ -45,9 +45,12 @@
     padding: 0;
     text-indent: 2em;
 }
-.article-panel ul li {
+ul.article-panel li {
     display: block;
     padding: 20px 0;
+    margin-bottom: 20px;
+    background: #8a6c6c59;
+
    
 }
 
@@ -57,7 +60,7 @@
 }
 .note-col {
     display: block;
-    width: 90%;
+  
     /* margin: 0 auto; */
 
 }
@@ -76,10 +79,8 @@
     letter-spacing: 0.2em;
     color: #ffffff;
     border-left: 3px solid #ffffff;
-    display: inline-block;
 }
 .plan-panel{
-
 }
 .demo-list{
 
@@ -89,14 +90,19 @@
 }
 .part-style{
     padding: 20px;
-    border-top: 2px solid #414141;
-
+    /* border-top: 2px solid #414141; */
+    
 }
 .part-style ol{
     display: block;
     list-style-type: disc;
     color: #ffffff;
     padding: 0 20px;
+}
+.part-style ol li{
+    padding: 0 15px;
+    background: none;
+    margin: 0;
 }
 .part-style ol li a{
     color: #ffffff;
